@@ -1,8 +1,8 @@
 resource "google_compute_firewall" "allow-80-from-anywhere-to-instances" {
   depends_on = [google_compute_network.
 vpc]
-  name    = var.vpc
-  network = var.vpc
+  name    = allow-80-from-anywhere-to-instances
+  network = var.virtual-private-cloud
 
   direction     = "INGRESS"
   priority      = 1000

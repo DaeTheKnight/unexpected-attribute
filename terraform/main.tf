@@ -1,4 +1,4 @@
 provider "google" {
-  project     = var.project
+  project     = var.cloud-owner
   #region      = "us-central1"
 }

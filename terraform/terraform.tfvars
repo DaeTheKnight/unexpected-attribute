@@ -1,2 +1,2 @@
-project = "dae-waf"
-vpc = "n-ark-survivors"
+cloud-owner = "dae-waf"
+virtual-private-cloud = "n-ark-survivors"

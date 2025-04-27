@@ -1,8 +1,8 @@
-variable "project" {
+variable "cloud-owner" {
   description = "the GCP project ID"
   type = string
 }
-variable "vpc" {
+variable "virtual-private-cloud" {
   description = "the vpc name"
   type = string
 }
